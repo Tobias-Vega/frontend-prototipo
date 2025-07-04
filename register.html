@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/resgister.css" />
+  </head>
+  <body>
+    <h2>Registro de Usuario</h2>
+
+    <!-- Ahora incluimos name, email y password -->
+    <input type="text" id="name" placeholder="Nombre completo" />
+    <input type="email" id="email" placeholder="Correo electrónico" />
+    <input type="password" id="password" placeholder="Contraseña" />
+
+    <button onclick="registerUser()">Registrarse</button>
+
+    <div id="message"></div>
+
+    <a href="login.html" class="link-login">¿Ya tienes cuenta? Inicia sesión</a>
+
+    <script src="js/register.js"></script>
+  </body>
+</html>
